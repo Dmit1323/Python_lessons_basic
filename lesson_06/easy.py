@@ -97,7 +97,7 @@ coord_trap_d = (1, 1)
 
 trap = Trapeze(coord_trap_a, coord_trap_b, coord_trap_c, coord_trap_d)
 
-print(trap.isosceles)
-print(trap.square)
-print(trap.perimeter)
+print(trap.isosceles())
+print(trap.square())
+print(trap.perimeter())
 # 2-ая задача легче из-за высот в первой, наверное все таки в первой надо было вычислять 1 длину высоты
